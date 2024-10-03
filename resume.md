@@ -5,4 +5,6 @@ title: Resume
 
 # My Resume
 
-<iframe src="/assets/AlexaMidtunResume.pdf" width="100%" height="600px"></iframe>
+<object data="/assets/AlexaMidtunResume.pdf" type="application/pdf" width="100%" height="600px">
+    <p>Your browser does not support PDFs. <a href="/assets/AlexaMidtunResume.pdf">Download the PDF</a>.</p>
+</object>
