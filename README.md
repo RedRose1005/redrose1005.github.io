@@ -52,31 +52,31 @@ Ordered
 
 ## Code
 
-Inline 'code'
+Inline `code`
 
 Indented code
 
-  // Some coments
+  // Some comments
   Line 1 of code
   Line 2 of code
   Line 3 of code
 
 
-Block code " fences "
+Block code "fences"
 
-'''
+```
 Sample text here...
-'''
+```
 
 Syntax highlighting
 
-''' js
+``` js
 var foo = function (bar) {
   return bar++;
   };
 
   console.log(foo(5));
-  '''
+  ```
 
 ## Tables
 
