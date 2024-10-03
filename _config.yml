@@ -1,2 +1,12 @@
 title: "Lexie Midtun"
 theme: minima
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Resume
+    url: /assets/AlexaMidtunResume.pdf
