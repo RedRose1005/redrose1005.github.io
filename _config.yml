@@ -3,9 +3,9 @@ theme: minima
 
 # Custom Navigation (Header)
 header_pages:
-  - /
-  - /projects/
-  - /resume/
+  - index.md
+  - projects.md
+  - resume.md
 
 # Social Links for Footer
 social_links:
