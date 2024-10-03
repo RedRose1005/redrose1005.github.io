@@ -3,5 +3,6 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Jekyll Site
-This site is powered by [Jekyll](https://jekyllrb.com) and the Minima theme.
+<h1>Overview</h1>
+<p>I am an undergraduate student at Arizona State University. I am am working towards a Bachelor's of Science in COmputer Science with an emphasis in cybersecurity.</p>
+
