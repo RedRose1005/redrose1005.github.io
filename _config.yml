@@ -1,7 +1,13 @@
 title: "Lexie Midtun"
 theme: minima
 
-# You can optionally add other configurations if needed
-description: "A brief description of your site."
-baseurl: "" # leave this empty unless you are using a subpath
-url: "https://<username>.github.io" # replace <username> with your GitHub username
+# Custom Navigation
+header:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Resume
+    url: /resume/
