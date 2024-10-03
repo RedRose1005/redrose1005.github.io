@@ -3,6 +3,16 @@ layout: default
 title: Home
 ---
 
-<h1>Overview</h1>
-<p>I am an undergraduate student at Arizona State University. I am am working towards a Bachelor's of Science in Computer Science with an emphasis in cybersecurity.</p>
+<nav>
+    <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+        <li><a href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank">Resume</a></li>
+    </ul>
+</nav>
+
+# Welcome to My Jekyll Site!
+
+This is a basic Jekyll site powered by GitHub Pages.
 
