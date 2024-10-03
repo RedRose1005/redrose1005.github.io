@@ -3,5 +3,5 @@ layout: home
 title: Home
 ---
 
-# Welcome to My Site!
-This is the homepage.
+# Overview
+I am an undergraduate student at Arizona State University studying computer science with an emphasis in cybersecurity. 
