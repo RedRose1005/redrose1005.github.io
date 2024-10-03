@@ -56,13 +56,13 @@ Inline 'code'
 
 Indented code
 
-  //Some coments
+  // Some coments
   Line 1 of code
   Line 2 of code
   Line 3 of code
 
 
-Block code "fences"
+Block code " fences "
 
 '''
 Sample text here...
