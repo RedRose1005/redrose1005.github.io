@@ -1,13 +1,11 @@
 title: "Lexie Midtun"
 theme: minima
 
-# Custom Navigation (Header)
-header_pages:
-  - index.md
-  - projects.md
-  - resume.md
-
-# Social Links for Footer
-social_links:
-  - name: "GitHub"
-    url: "https://github.com/lexiemidtun"
+# Custom Navigation
+header:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: Resume
+    url: /resume/
