@@ -1,12 +1,10 @@
 title: "Lexie Midtun"
 theme: minima
 
-navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Projects
-    url: /projects/
-  - title: Resume
-    url: /assets/AlexaMidtunResume.pdf
+# Specify the custom header include
+header: _includes/header.html
+
+# Optional: If you want to include additional site configuration
+description: "A brief description of your site."
+baseurl: "" # leave this empty unless you are using a subpath
+url: "https://lexiemidtun.github.io" # replace <username> with your GitHub username
