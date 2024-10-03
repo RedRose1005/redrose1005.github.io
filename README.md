@@ -93,7 +93,7 @@ Right alignes columns
 [link with title](http://nodeca.github.io/pica/demo/ "title text!")
 
 ## Images
-![Minion] (https://octodex.github.com/images/minion.png)
+![Minion](https://octodex.github.com/images/minion.png)
 
 ## The End!
 
