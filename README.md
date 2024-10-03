@@ -54,14 +54,6 @@ Ordered
 
 Inline `code`
 
-Indented code
-
-  // Some comments
-  Line 1 of code
-  Line 2 of code
-  Line 3 of code
-
-
 Block code "fences"
 
 ```
