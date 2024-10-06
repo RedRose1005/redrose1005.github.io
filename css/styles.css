@@ -19,7 +19,7 @@ body {
 }
 
 footer {
-    padding: 10px;
+    padding: 10px 20px; /* Adjust the padding here */
     background: #f8f9fa;
     border-top: 1px solid #e0e0e0; /* Optional border for separation */
     width: 100%;
@@ -38,7 +38,7 @@ footer {
 }
 
 .footer-links img {
-    margin: 0 10px; /* Space between icons */
+    margin: 0 5px; /* Space between icons; adjust if needed */
     transition: transform 0.2s; /* Animation on hover */
 }
 
