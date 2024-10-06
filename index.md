@@ -42,8 +42,8 @@
       padding: 0;
       margin: 0;
       display: flex;
-      justify-content: flex-start; /* Align items to the left */
-      margin-left: 20px;
+      justify-content: flex-end; /* Align items to the right */
+      margin-right: 20px; /* Add space on the right side */
     }
 
     nav ul li {
