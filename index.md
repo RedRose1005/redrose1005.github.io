@@ -21,7 +21,7 @@
     </script>
 </header>
 
-<main class="flex-shrink-1">
+<main class="flex-shrink-1" style="padding-top: 70px;"> <!-- Added padding to account for the navbar height -->
     <div class="container" style="max-width:1000px;">
         <div class="row">
             <div class="col-md-2 col-sm-3 col-xs-3 mt-4">
