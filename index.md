@@ -1,120 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Home - Lexie Midtun's Website</title>
-
-  <!-- Inline CSS to style the navigation bar and footer -->
-  <style>
-    /* General Page Styling */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-
-    h1 {
-      color: #333;
-    }
-
-    p {
-      color: #666;
-      font-size: 18px;
-      margin: 10px 0;
-    }
-
-      /* Navigation Bar Styling */
-  nav {
-    height: 60px; /* Fixed height for the nav bar */
-    background-color: #E9EBEE; /* Light gray background for the navigation bar */
-    padding: 0; /* Remove padding */
-    position: fixed; /* Make the nav bar stick at the top */
-    width: 100%; /* Full width of the page */
-    top: 0;
-    left: 0;
-    z-index: 1000; /* Ensure it is above other content */
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-    display: flex; /* Use Flexbox for alignment */
-    justify-content: flex-end; /* Align items to the right */
-    align-items: center; /* Center items vertically */
-    height: 100%; /* Ensure it takes full height of the nav */
-  }
-  
-  nav ul li {
-    margin-right: 20px; /* Space between navigation items */
-  }
-  
-  nav a {
-    color: #333; /* Darker text for better contrast */
-    text-decoration: none;
-    font-size: 18px; /* Ensure font size is consistent */
-    padding: 15px 20px; /* Add padding for height uniformity */
-    display: inline-block; /* Make sure links behave like block elements */
-  }
-
-    nav a:hover {
-      text-decoration: underline; /* Underline effect on hover */
-    }
-
-    /* Main Content Area */
-    main {
-      padding-top: 80px; /* Avoid content being hidden under the fixed nav bar */
-      text-align: center;
-    }
-
-    /* Footer Styling */
-    footer {
-      background-color: #F5F7F8; /* Light gray with a blue tint */
-      color: #333; /* Darker text color for contrast */
-      padding: 10px 0; /* Padding for top and bottom */
-      text-align: center; /* Center the text */
-      position: fixed; /* Keep the footer fixed at the bottom */
-      bottom: 0; /* Align it to the bottom of the page */
-      left: 0; /* Align it to the left edge */
-      width: 100%; /* Make sure it stretches across the full width */
-      box-sizing: border-box; /* Ensures padding does not affect width */
-    }
-
-    footer a {
-      color: #333; /* Match footer link color with the dark text */
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Lexie Midtun</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/styles/font-awesome-4.7.0/css/font-awesome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
 
-  <!-- Navigation Bar -->
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/projects/">Projects</a></li>
-    </ul>
-  </nav>
+<body class="d-flex flex-column h-100">
 
-  <!-- Main Content -->
-  <main>
-    <h1>Welcome to My Home Page</h1>
-    <p>This is the homepage of my website. Feel free to explore!</p>
-  </main>
+<header id="header">
+    <script>
+        $(function() {
+            $("#header").load("/assets/html/header.html");
+        });
+    </script>
+</header>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 Lexie Midtun</p>
-    <a href="https://github.com/lexiemidtun" target="_blank">GitHub</a> |
-    <a href="https://www.linkedin.com/in/lexiemidtun/" target="_blank">LinkedIn</a>
-  </footer>
+<main class="flex-shrink-1">
+    <div class="container" style="max-width:1000px;">
+        <div class="row">
+
+            <div class="col-md-2 col-sm-3 col-xs-3 mt-4">
+                <img class="rounded shadow img-fluid" src="/assets/img_people/profile.png" alt="Lexie Midtun">
+            </div>
+
+            <div class="col-md-10 col-sm-9 col-xs-6 mt-2 pt-3">
+                <h1>Lexie Midtun</h1>
+                <p class="lead">
+                    Aspiring Cybersecurity Professional<br>
+                    Computer Science & Cybersecurity Student<br>
+                    Arizona State University
+                </p>
+            </div>
+            
+        </div>
+
+        <hr>
+
+        <h2>About Me</h2>
+        <p>
+            I am currently studying computer science and cybersecurity at Arizona State University. I have a strong interest in cryptology and aim to work in cybersecurity for the government. My academic pursuits also extend to mathematics and criminal justice.
+        </p>
+
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="/projects/project1/" class="link-danger">Project 1: Description of your project</a></li>
+            <li><a href="/projects/project2/" class="link-danger">Project 2: Description of your project</a></li>
+            <li><a href="/projects/project3/" class="link-danger">Project 3: Description of your project</a></li>
+            <!-- Add more projects as needed -->
+        </ul>
+
+        <h2>Recent News</h2>
+        <div class="mb-5">
+            <h5>October 2024</h5>
+            <p class="mx-2">Excited to start new research opportunities in cybersecurity!</p>
+
+            <h5>September 2024</h5>
+            <p class="mx-2">Joined the campus cybersecurity club to enhance my skills and network.</p>
+
+            <!-- Add more news as needed -->
+        </div>
+
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out via <a href="mailto:your-email@example.com" class="link-danger">email</a>.</p>
+
+    </div> <!-- end container -->
+</main>
+
+<footer class="footer mt-auto py-3 bg-light border border-top" id="footer">
+    <script>
+        $(function() {
+            $("#footer").load("/assets/html/footer.html");
+        });
+    </script>
+</footer>
 
 </body>
 </html>
