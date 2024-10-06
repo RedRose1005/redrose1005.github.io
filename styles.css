@@ -21,26 +21,23 @@ nav {
   background-color: #333; /* Dark background for the navigation bar */
   padding: 10px 0;
   position: fixed; /* Make the nav bar stick at the top */
-  width: 100%;
-  top: 0;
+  width: 100%; /* Make the nav bar stretch across the entire page width */
+  top: 0; /* Stick to the top of the viewport */
   left: 0;
-  z-index: 1000;
+  z-index: 1000; /* Make sure it's above other content */
 }
 
 nav ul {
   list-style: none; /* Remove bullet points */
   padding: 0;
   margin: 0;
-  display: flex; /* Display the nav items in a row */
+  display: flex; /* Flexbox to align items horizontally */
   justify-content: flex-start; /* Align nav items to the left */
+  margin-left: 20px; /* Small left margin for better aesthetics */
 }
 
 nav ul li {
-  margin: 0 20px; /* Spacing between each nav item */
-}
-
-nav ul li:first-child {
-  margin-left: 0; /* No margin on the first item */
+  margin-right: 20px; /* Space between each nav item */
 }
 
 nav a {
@@ -55,4 +52,17 @@ nav a:hover {
 
 /* Main Content Area */
 main {
-  padd
+  padding-top: 80px; /* Make sure the content doesn't hide behind the fixed nav bar */
+  text-align: center; /* Center the main content */
+}
+
+/* Footer Styling (Optional) */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
