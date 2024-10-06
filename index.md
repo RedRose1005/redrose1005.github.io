@@ -26,36 +26,39 @@
       margin: 10px 0;
     }
 
-    /* Navigation Bar Styling */
-    nav {
-      background-color: #F5F7F8; /* Light gray background for the navigation bar */
-      padding: 10px 0;
-      position: fixed; /* Make the nav bar stick at the top */
-      width: 100%; /* Full width of the page */
-      top: 0;
-      left: 0;
-      z-index: 1000; /* Ensure it is above other content */
-    }
-
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      justify-content: flex-end; /* Align items to the right */
-      margin-right: 20px; /* Add space on the right side */
-    }
-
-    nav ul li {
-      margin-right: 20px; /* Space between navigation items */
-    }
-
-    nav a {
-      color: #333; /* Darker text for better contrast */
-      text-decoration: none;
-      font-size: 18px;
-      line-height: normal; /* Ensure all items are vertically centered */
-    }
+      /* Navigation Bar Styling */
+  nav {
+    height: 60px; /* Fixed height for the nav bar */
+    background-color: #E9EBEE; /* Light gray background for the navigation bar */
+    padding: 0; /* Remove padding */
+    position: fixed; /* Make the nav bar stick at the top */
+    width: 100%; /* Full width of the page */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it is above other content */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center items vertically */
+    height: 100%; /* Ensure it takes full height of the nav */
+  }
+  
+  nav ul li {
+    margin-right: 20px; /* Space between navigation items */
+  }
+  
+  nav a {
+    color: #333; /* Darker text for better contrast */
+    text-decoration: none;
+    font-size: 18px; /* Ensure font size is consistent */
+    padding: 15px 20px; /* Add padding for height uniformity */
+    display: inline-block; /* Make sure links behave like block elements */
+  }
 
     nav a:hover {
       text-decoration: underline; /* Underline effect on hover */
