@@ -20,14 +20,39 @@ p {
 nav {
   background-color: #333; /* Dark background for the navigation bar */
   padding: 10px 0;
-  text-align: center;
+  position: fixed; /* Make the nav bar stick at the top */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 nav ul {
   list-style: none; /* Remove bullet points */
   padding: 0;
   margin: 0;
+  display: flex; /* Display the nav items in a row */
+  justify-content: flex-start; /* Align nav items to the left */
 }
 
 nav ul li {
-  display: inl
+  margin: 0 20px; /* Spacing between each nav item */
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* No margin on the first item */
+}
+
+nav a {
+  color: white; /* White text for the navigation links */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Main Content Area */
+main {
+  padd
