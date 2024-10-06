@@ -70,7 +70,7 @@
     footer {
       background-color: #e0f0f5; /* Light gray with a blue tint */
       color: #333; /* Darker text color for contrast */
-      padding: 10px 0;
+      padding: 0;
       text-align: center;
       position: fixed;
       bottom: 0;
