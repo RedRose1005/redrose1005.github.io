@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html class="h-100">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Lexie Midtun</title>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/assets/styles/font-awesome-4.7.0/css/font-awesome.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/assets/styles/font-awesome-4.7.0/css/font-awesome.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -22,19 +21,37 @@
     </script>
 </header>
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Lexie Midtun</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects/index.html">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <main class="flex-shrink-1">
     <div class="container" style="max-width:1000px;">
         <div class="row">
 
             <div class="col-md-2 col-sm-3 col-xs-3 mt-4">
-                <img class="rounded shadow img-fluid" src="/assets/img_people/profile.png" alt="Lexie Midtun">
+                <img class="rounded shadow img-fluid" src="/assets/img_people/profile.png" data-holder-rendered="true">
             </div>
 
             <div class="col-md-10 col-sm-9 col-xs-6 mt-2 pt-3">
                 <h1>Lexie Midtun</h1>
                 <p class="lead">
-                    Aspiring Cybersecurity Professional<br>
-                    Computer Science & Cybersecurity Student<br>
+                    Computer Science and Cybersecurity Student<br>
                     Arizona State University
                 </p>
             </div>
@@ -43,32 +60,21 @@
 
         <hr>
 
-        <h2>About Me</h2>
+        <h2>About</h2>
         <p>
-            I am currently studying computer science and cybersecurity at Arizona State University. I have a strong interest in cryptology and aim to work in cybersecurity for the government. My academic pursuits also extend to mathematics and criminal justice.
+            I am a Computer Science and Cybersecurity student at Arizona State University. My interests include cryptology and enhancing cybersecurity measures to keep up with technological advancements.
         </p>
 
-        <h2>Projects</h2>
+        <h5>External links</h5> 
         <ul>
-            <li><a href="/projects/project1/" class="link-danger">Project 1: Description of your project</a></li>
-            <li><a href="/projects/project2/" class="link-danger">Project 2: Description of your project</a></li>
-            <li><a href="/projects/project3/" class="link-danger">Project 3: Description of your project</a></li>
-            <!-- Add more projects as needed -->
+            <li><a href='https://www.linkedin.com/in/your-linkedin' class='link-danger' target='_blank'>LinkedIn</a></li>
+            <li><a href='https://github.com/your-github' class='link-danger' target='_blank'>GitHub</a></li>
+            <li><a href='https://twitter.com/your-twitter' class='link-danger' target='_blank'>Twitter</a></li>
         </ul>
 
+        <hr>
         <h2>Recent News</h2>
-        <div class="mb-5">
-            <h5>October 2024</h5>
-            <p class="mx-2">Excited to start new research opportunities in cybersecurity!</p>
-
-            <h5>September 2024</h5>
-            <p class="mx-2">Joined the campus cybersecurity club to enhance my skills and network.</p>
-
-            <!-- Add more news as needed -->
-        </div>
-
-        <h2>Contact</h2>
-        <p>If you'd like to get in touch, feel free to reach out via <a href="mailto:your-email@example.com" class="link-danger">email</a>.</p>
+        <p class="mx-2">Content about your recent accomplishments or updates can go here.</p>
 
     </div> <!-- end container -->
 </main>
