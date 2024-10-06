@@ -54,6 +54,7 @@
       color: #333; /* Darker text for better contrast */
       text-decoration: none;
       font-size: 18px;
+      line-height: 40px; /* Ensure all items are vertically centered */
     }
 
     nav a:hover {
