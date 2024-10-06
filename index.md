@@ -68,13 +68,15 @@
 
     /* Footer Styling */
     footer {
-      background-color: #f5f5f5; /* Light gray background for the footer */
+      background-color: #e0f0f5; /* Light gray with a blue tint */
       color: #333; /* Darker text color for contrast */
-      padding: 10px 0;
-      text-align: center;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+      padding: 10px 0; /* Padding for top and bottom */
+      text-align: center; /* Center the text */
+      position: fixed; /* Keep the footer fixed at the bottom */
+      bottom: 0; /* Align it to the bottom of the page */
+      left: 0; /* Align it to the left edge */
+      width: 100%; /* Make sure it stretches across the full width */
+      box-sizing: border-box; /* Ensures padding does not affect width */
     }
 
     footer a {
