@@ -3,6 +3,8 @@ html, body {
 }
 
 body {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack children vertically */
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -13,24 +15,15 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    flex: 1; /* Allow this container to grow and fill available space */
 }
 
 footer {
     padding: 20px;
     background: #f8f9fa;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer img {
-    margin: 0 10px;
-}
-
-footer {
-    padding: 20px 0;
-    background-color: #f8f9fa; /* Light background color */
     border-top: 1px solid #e0e0e0; /* Optional border for separation */
+    width: 100%;
+    text-align: center; /* Center the text in the footer */
 }
 
 footer img {
