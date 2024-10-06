@@ -22,13 +22,14 @@ footer {
     background: #f8f9fa;
     border-top: 1px solid #e0e0e0; /* Optional border for separation */
     width: 100%;
+    padding: 10px 0; /* Add minimal vertical padding */
 }
 
 .footer-content {
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space out the items */
     align-items: center; /* Center items vertically */
-    padding: 0px 0px; /* Reduce padding to minimize space */
+    padding: 0 15px; /* Add horizontal padding for content spacing */
 }
 
 .footer-links {
@@ -46,5 +47,4 @@ footer {
 
 .footer-copyright {
     text-align: right; /* Align copyright text to the right */
-    margin-left: auto; /* Push copyright to the right side */
 }
