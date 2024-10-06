@@ -32,6 +32,15 @@ footer {
     padding: 0 15px; /* Add horizontal padding for content spacing */
 }
 
+.footer-links a {
+    margin-right: 15px; /* Adjust the right margin to increase space */
+    color: black; /* Set default color to black */
+}
+
+.footer-links a.github-icon {
+    color: black; /* Change GitHub icon color to black */
+}
+
 .footer-links {
     display: flex; /* Arrange links horizontally */
 }
