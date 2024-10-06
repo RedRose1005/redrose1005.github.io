@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="h-100">
 <head>
-    
+    <title>Home | Lexie Midtun</title>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="/assets/styles/font-awesome-4.7.0/css/font-awesome.css">
