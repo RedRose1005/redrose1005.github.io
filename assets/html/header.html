@@ -1,10 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light border border-bottom">
-    <div class="container" style="max-width: 1000px">
+    <div class="container-fluid"> <!-- Changed to container-fluid -->
       <a class="navbar-brand link-dark" href="/" id="name-link">Lexie Midtun</a>
       <button class="navbar-toggler toggler-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse align-left" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link mx-2" href="/" id="home-link">
@@ -13,7 +13,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="/projects/index.html" id="projects-link"> <!-- Updated to link to projects -->
+            <a class="nav-link mx-2" href="/projects/index.html" id="projects-link">
                 <i class="bi bi-file-earmark"></i>
                 Projects
             </a>
@@ -25,7 +25,7 @@
 
 <script>
     function getCurrentURL () {
-        return window.location.href
+        return window.location.href;
     }
     const url = getCurrentURL();
 
