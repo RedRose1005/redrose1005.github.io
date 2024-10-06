@@ -1,7 +1,3 @@
-html, body {
-    height: 100%; /* Ensure the body takes the full height */
-}
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
