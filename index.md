@@ -24,11 +24,9 @@
 <main class="flex-shrink-1">
     <div class="container" style="max-width:1000px;">
         <div class="row">
-
             <div class="col-md-2 col-sm-3 col-xs-3 mt-4">
                 <img class="rounded shadow img-fluid" src="/assets/img_people/profile.png" data-holder-rendered="true">
             </div>
-
             <div class="col-md-10 col-sm-9 col-xs-6 mt-2 pt-3">
                 <h1>Lexie Midtun</h1>
                 <p class="lead">
@@ -36,7 +34,6 @@
                     Arizona State University
                 </p>
             </div>
-            
         </div>
 
         <hr>
@@ -56,7 +53,6 @@
         <hr>
         <h2>Recent News</h2>
         <p class="mx-2">Content about your recent accomplishments or updates can go here.</p>
-
     </div> <!-- end container -->
 </main>
 
