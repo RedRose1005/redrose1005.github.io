@@ -28,7 +28,7 @@ footer {
 .footer-content {
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space out the items */
-    align-items: center; /* Center items vertically */
+    align-items: left; /* Center items vertically */
     max-width: 800px; /* Adjust max-width if needed */
     margin: auto; /* Center the footer content */
 }
