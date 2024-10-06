@@ -28,7 +28,7 @@
 
     /* Navigation Bar Styling */
     nav {
-      background-color: #f5f5f5; /* Light gray background for the navigation bar */
+      background-color: #e0f0f5; /* Light gray with a blue tint */
       padding: 10px 0;
       position: fixed; /* Make the nav bar stick at the top */
       width: 100%; /* Full width of the page */
@@ -68,13 +68,15 @@
 
     /* Footer Styling */
     footer {
-      background-color: #f5f5f5; /* Light gray background for the footer */
+      background-color: #e0f0f5; /* Light gray with a blue tint */
       color: #333; /* Darker text color for contrast */
       padding: 10px 0;
       text-align: center;
       position: fixed;
       bottom: 0;
-      width: 100%;
+      left: 0;
+      width: 100%; /* Full width of the screen */
+      box-sizing: border-box; /* Ensure padding doesn't affect the width */
     }
 
     footer a {
