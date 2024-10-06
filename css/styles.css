@@ -19,18 +19,33 @@ body {
 }
 
 footer {
-    padding: 10px; /* Reduced padding */
+    padding: 10px;
     background: #f8f9fa;
     border-top: 1px solid #e0e0e0; /* Optional border for separation */
     width: 100%;
-    text-align: center; /* Center the text in the footer */
 }
 
-footer img {
+.footer-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Center items vertically */
+    max-width: 800px; /* Adjust max-width if needed */
+    margin: auto; /* Center the footer content */
+}
+
+.footer-links {
+    display: flex; /* Arrange links horizontally */
+}
+
+.footer-links img {
     margin: 0 10px; /* Space between icons */
     transition: transform 0.2s; /* Animation on hover */
 }
 
-footer img:hover {
+.footer-links img:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.footer-copyright {
+    text-align: right; /* Align copyright text to the right */
 }
