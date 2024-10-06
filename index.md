@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Home - Lexie Midtun's Website</title>
 
-  <!-- Inline CSS to style the navigation bar -->
+  <!-- Inline CSS to style the navigation bar and footer -->
   <style>
     /* General Page Styling */
     body {
@@ -17,7 +17,7 @@
     }
 
     h1 {
-      color: ##f5f5f5;
+      color: #333;
     }
 
     p {
@@ -28,53 +28,62 @@
 
     /* Navigation Bar Styling */
     nav {
-      background-color: #333; /* Dark background for the navigation bar */
+      background-color: #f5f5f5; /* Light gray background for the navigation bar */
       padding: 10px 0;
       position: fixed; /* Make the nav bar stick at the top */
-      width: 100%; /* Make the nav bar stretch across the entire page width */
-      top: 0; /* Stick to the top of the viewport */
+      width: 100%; /* Full width of the page */
+      top: 0;
       left: 0;
-      z-index: 1000; /* Make sure it's above other content */
+      z-index: 1000; /* Ensure it is above other content */
     }
 
     nav ul {
-      list-style: none; /* Remove bullet points */
+      list-style: none;
       padding: 0;
       margin: 0;
-      display: flex; /* Flexbox to align items horizontally */
-      justify-content: flex-start; /* Align nav items to the left */
-      margin-left: 20px; /* Small left margin for better aesthetics */
+      display: flex;
+      justify-content: flex-start; /* Align items to the left */
+      margin-left: 20px;
     }
 
     nav ul li {
-      margin-right: 20px; /* Space between each nav item */
+      margin-right: 20px; /* Space between navigation items */
     }
 
     nav a {
-      color: white; /* White text for the navigation links */
-      text-decoration: none; /* Remove underline */
+      color: #333; /* Darker text for better contrast */
+      text-decoration: none;
       font-size: 18px;
     }
 
     nav a:hover {
-      text-decoration: underline; /* Add underline on hover */
+      text-decoration: underline; /* Underline effect on hover */
     }
 
     /* Main Content Area */
     main {
-      padding-top: 80px; /* Make sure the content doesn't hide behind the fixed nav bar */
-      text-align: center; /* Center the main content */
+      padding-top: 80px; /* Avoid content being hidden under the fixed nav bar */
+      text-align: center;
     }
 
-    /* Footer Styling (Optional) */
+    /* Footer Styling */
     footer {
-      background-color: #333;
-      color: white;
+      background-color: #f5f5f5; /* Light gray background for the footer */
+      color: #333; /* Darker text color for contrast */
       padding: 10px 0;
       text-align: center;
       position: fixed;
       bottom: 0;
       width: 100%;
+    }
+
+    footer a {
+      color: #333; /* Match footer link color with the dark text */
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -94,11 +103,11 @@
     <p>This is the homepage of my website. Feel free to explore!</p>
   </main>
 
-  <!-- Footer (Optional) -->
+  <!-- Footer -->
   <footer>
     <p>&copy; 2024 Lexie Midtun</p>
-    <a href="https://github.com/lexiemidtun" target="_blank" style="color: white;">GitHub</a> |
-    <a href="https://www.linkedin.com/in/lexiemidtun/" target="_blank" style="color: white;">LinkedIn</a>
+    <a href="https://github.com/lexiemidtun" target="_blank">GitHub</a> |
+    <a href="https://www.linkedin.com/in/lexiemidtun/" target="_blank">LinkedIn</a>
   </footer>
 
 </body>
