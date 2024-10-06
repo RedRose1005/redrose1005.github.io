@@ -16,17 +16,22 @@
 <header id="header">
     <script>
         $(function() {
-            $("#header").load("/assets/html/header.html");
+            $("#header").load("/assets/html/header.html", function(response, status, xhr) {
+                if (status == "error") {
+                    console.log("Error loading header: " + xhr.status + " " + xhr.statusText);
+                }
+            });
         });
     </script>
 </header>
 
-<main class="flex-shrink-1" style="padding-top: 70px;"> <!-- Added padding to account for the navbar height -->
+<main class="flex-shrink-1">
     <div class="container" style="max-width:1000px;">
         <div class="row">
             <div class="col-md-2 col-sm-3 col-xs-3 mt-4">
                 <img class="rounded shadow img-fluid" src="/assets/img_people/profile.png" data-holder-rendered="true">
             </div>
+
             <div class="col-md-10 col-sm-9 col-xs-6 mt-2 pt-3">
                 <h1>Lexie Midtun</h1>
                 <p class="lead">
