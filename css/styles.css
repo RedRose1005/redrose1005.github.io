@@ -1,3 +1,7 @@
+h1 {
+    font-size: 2rem; /* Adjust the value to make it smaller */
+}
+
 html, body {
     height: 100%; /* This makes the body take up the full height of the viewport */
 }
