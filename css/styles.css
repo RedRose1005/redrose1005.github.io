@@ -1,51 +1,3 @@
-.intro-section {
-    display: flex;
-    justify-content: center; /* Centers the content horizontally */
-    align-items: center;     /* Centers the content vertically */
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.intro-content {
-    display: flex;
-    align-items: center;  /* Align the text and image vertically */
-    max-width: 800px;     /* Set a maximum width for the section */
-}
-
-.intro-content .text {
-    margin-right: 20px; /* Space between text and image */
-}
-
-.intro-content h1 {
-    font-size: 2.5em;   /* Adjust the font size for the name */
-    margin: 0;          /* Remove default margin */
-}
-
-.intro-content p {
-    font-size: 1.2em;   /* Adjust the font size for the major */
-    margin-top: 5px;    /* Add a little space between the name and major */
-}
-
-.intro-content .image img {
-    width: 150px;       /* Adjust the image width */
-    border-radius: 50%; /* Make the image circular */
-    border: 3px solid #e0e0e0; /* Optional border for the image */
-}
-
-@media (max-width: 768px) {
-    /* For smaller screens */
-    .intro-section {
-        flex-direction: column;
-    }
-    .intro-content {
-        flex-direction: column;
-        text-align: center;
-    }
-    .intro-content .text {
-        margin-right: 0;
-    }
-}
-
 html, body {
     height: 100%; /* This makes the body take up the full height of the viewport */
 }
@@ -64,6 +16,30 @@ body {
     margin: auto;
     padding: 20px;
     flex: 1; /* Allow this container to grow and fill available space */
+}
+
+/* New styles for profile section */
+.profile-section {
+    display: flex; /* Flexbox for side-by-side layout */
+    align-items: center; /* Vertically center the content */
+    margin-bottom: 30px; /* Add spacing below the section */
+}
+
+.profile-photo {
+    width: 150px; /* Set the width of the photo */
+    height: 150px; /* Set the height of the photo */
+    border-radius: 50%; /* Make the photo circular */
+    margin-right: 20px; /* Add space between the photo and text */
+}
+
+.profile-text h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2rem; /* Set font size for your name */
+}
+
+.profile-text p {
+    margin: 5px 0 0 0; /* Remove margins and add a little spacing for the major text */
+    font-size: 1.2rem; /* Adjust font size for the major text */
 }
 
 footer {
