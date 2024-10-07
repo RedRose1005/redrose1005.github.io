@@ -50,7 +50,7 @@ body {
     border: none; /* Remove the default border */
     border-top: 2px solid #ccc; /* Custom style for the horizontal line */
     margin: 20px 0; /* Add some vertical space around the line */
-    width: 100vw; /* Make the line stretch across the entire viewport width */
+    width: 80vw; /* Make the line stretch across the entire viewport width */
     position: relative;
     left: 50%; /* Align the line properly */
     transform: translateX(-50%); /* Adjust the center alignment */
