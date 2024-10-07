@@ -26,10 +26,10 @@ body {
 }
 
 .profile-photo {
-    width: 150px; /* Set the width of the photo */
-    height: 150px; /* Set the height of the photo */
-    border-radius: 50%; /* Make the photo circular */
-    margin-right: 20px; /* Add space between the photo and text */
+    width: 200px; /* Adjust width to your preference */
+    height: 300px; /* Adjust height to your preference */
+    object-fit: cover; /* Ensures the image fills the space properly */
+    margin-right: 20px; /* Adds space between the image and text */
 }
 
 .profile-text h1 {
