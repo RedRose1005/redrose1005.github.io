@@ -26,8 +26,8 @@ body {
 }
 
 .profile-photo {
-    width: 150px; /* Adjust width to your preference */
-    height: 225px; /* Adjust height to your preference */
+    width: 125px; /* Adjust width to your preference */
+    height: 187.5px; /* Adjust height to your preference */
     object-fit: cover; /* Ensures the image fills the space properly */
     margin-right: 20px; /* Adds space between the image and text */
 }
